@@ -1,6 +1,7 @@
+import SearchPage from '../components/SearchPage';
 
 export default function Home() {
   return (
-    <h1>next receipe</h1>
-  );
+    <SearchPage />
+  )
 }
