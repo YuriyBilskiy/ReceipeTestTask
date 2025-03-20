@@ -46,7 +46,7 @@ pnpm install
    - Add your Spoonacular API key:
 
 ```env
-SPOONACULAR_API_KEY=your_api_key_here
+NEXT_PUBLIC_SPOONACULAR_API_KEY=your_api_key_here
 ```
 
 You can get an API key by signing up at [Spoonacular API](https://spoonacular.com/food-api)

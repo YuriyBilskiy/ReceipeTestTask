@@ -1,7 +1,7 @@
 const ReceipeInformation = async (searchParams: {
   params: { id?: string };
 }) => {
-  const API_KEY = process.env.SPOONACULAR_API_KEY;
+  const API_KEY = process.env.NEXT_PUBLIC_SPOONACULAR_API_KEY;
 
   if (!searchParams.params.id) {
     return <div className="text-white">No recipe ID provided</div>;

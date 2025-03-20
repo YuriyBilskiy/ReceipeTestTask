@@ -3,7 +3,7 @@ export const fetchRecipes = async (searchParams: {
   cuisine?: string;
   maxReadyTime?: string;
 }) => {
-  const API_KEY = process.env.SPOONACULAR_API_KEY;
+  const API_KEY = process.env.NEXT_PUBLIC_SPOONACULAR_API_KEY;
 
   if (!API_KEY) {
     throw new Error('API key is missing');
